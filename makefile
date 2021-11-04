@@ -7,4 +7,4 @@ max.o: max.c max.h
 min.o: min.c min.h
 	cc -c min.c
 clean:
-	rm -r "*.o"
+	rm -r *.o
