@@ -8,9 +8,9 @@ int main(){
     printf("Digitare 0 per conoscere il maggiore, altrimenti digitare un altro numero ");
     scanf("%d",&n);
     if(n==0)
-    printf("Il maggiore e': ",max(a,b));
+    printf("Il maggiore e': %d ",max(a,b));
     else
-    printf("Il minimo e': ",min(a,b));
+    printf("Il minimo e': %d ",min(a,b));
 }
 
 int max(a,b){
