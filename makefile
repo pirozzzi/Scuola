@@ -1,5 +1,5 @@
 maxmin.out: top.o max.o min.o
-	cc top.o max.o min.o
+	cc top.o max.o min.o -o maxmin.out
 top.o: top.c max.h min.h
 	cc -c top.c
 max.o: max.c max.h
