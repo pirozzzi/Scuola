@@ -5,5 +5,5 @@ int main(){
     printf("Inserisci due numeri: \n");
     scanf("%d",&a);
     scanf("%d",&b);
-    printf("Il maggiore tra i due e': %d",max(a,b));
+    printf("Il maggiore tra i due e': %d ",max(a,b));
 }
