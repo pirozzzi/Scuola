@@ -1,5 +1,6 @@
 #include<stdio.h>
 int max(int a, int b);
+int min(int a, int b);
 int main(){
     int a,b,n;
     printf("Inserisci due numeri: ");
