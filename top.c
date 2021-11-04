@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<math.h>
-int a,b;
 int max(int a, int b);
 int main(){
+    int a,b;
     printf("Inserisci due numeri: \n");
     scanf("%d,&a");
     scanf("%d,&b");
